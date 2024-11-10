@@ -1,0 +1,33 @@
+
+.fg p {
+    color: #000000;
+    font-size: 25px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.offcanvas-body .nav-item a {
+    color: white;
+    font-size: medium;
+    padding: 10px 15px;
+}
+
+@media (max-width: 768px) {
+    .offcanvas-body .nav-item a {
+        font-size: medium;
+        padding: 8px 10px;
+    }
+
+    .navbar-toggler {
+        display: block; /* Show toggle button on small screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-toggler {
+        display: none; /* Hide toggle button on large screens */
+    }
+}
+
